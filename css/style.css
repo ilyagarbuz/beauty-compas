@@ -948,8 +948,6 @@ body {
 
 .input {
   position: relative;
-}
-.input input, .input textarea, .input select, .input.input--select {
   background: #FFFFFF;
   width: 100%;
   height: 100%;
@@ -963,11 +961,11 @@ body {
   font-weight: 600;
   line-height: normal;
 }
-.input input:focus-visible, .input textarea:focus-visible, .input select:focus-visible, .input.input--select:focus-visible {
+.input:focus-visible {
   outline: 1px solid #1560BD;
 }
 @media all and (min-width: 1400px) {
-  .input input, .input textarea, .input select, .input.input--select {
+  .input:focus-visible {
     font-size: 18px;
   }
 }
@@ -1840,7 +1838,6 @@ body {
   color: #E31E24;
 }
 
-<<<<<<< HEAD
 .bread {
   margin-bottom: 30px;
 }
@@ -2084,8 +2081,6 @@ body {
   }
 }
 
-=======
->>>>>>> 01771424fd4faa0a795680a2c27c3435cdf4703f
 .top-bar {
   position: relative;
   padding-top: 126px;
